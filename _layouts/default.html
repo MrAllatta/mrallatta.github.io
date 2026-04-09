@@ -3,28 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }} | {{ site.title }}</title>
+    <title>{{ page.title | default: site.title }}</title>
+    <meta name="description" content="{{ page.description | default: site.description }}">
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
-    <header>
-        <h1><a href="{{ site.url }}">{{ site.title }}</a></h1>
-        <nav>
-            <ul>
-                <li><a href="{{ site.baseurl }}/">Home</a></li>
-                <li><a href="{{ site.baseurl }}/teaching-portfolio/">Teaching Portfolio</a></li>
-		<li><a href="{{ site.baseulr }}/thisiscs/">So, This is CS!</a></li>
-		<li><a href="{{ site.baseurl }}/syllabus_cs_principles/syllabus_cs_principles.pdf">Approved AP CS Principles in Functional Programming</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div class="site-wrapper">
+        <header>
+            <div class="site-title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></div>
+            <nav>
+                <ul>
+                    <li><a href="{{ '/' | relative_url }}">Home</a></li>
+                    <li><a href="{{ '/about/' | relative_url }}">About</a></li>
+                </ul>
+            </nav>
+        </header>
 
-    <main>
-        {{ content }}
-    </main>
+        <main>
+            {{ content }}
+        </main>
 
-    <footer>
-        <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved.</p>
-    </footer>
+        <footer>
+            <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}</p>
+            <div class="footer-links">
+                <a href="mailto:{{ site.email }}">Email</a>
+                <a href="https://github.com/{{ site.github_username }}">GitHub</a>
+                <a href="https://linkedin.com/in/eric-allatta">LinkedIn</a>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
