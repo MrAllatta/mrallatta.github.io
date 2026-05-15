@@ -2,9 +2,19 @@
   description: Lessons, demo lessons, and the messy evidence of a decade in the classroom. If you want to know how I teach, start here.
   url: /teaching-portfolio/
 
+- name: AP CS Principles in Functional Programming
+  description: CollegeBoard-approved syllabus built on Bootstrap and Pyret.
+  url: /syllabus_cs_principles/syllabus_cs_principles.pdf
+
 - name: "Curriculum: CS9 — Program by Design"
   description: A full-year intro CS course rooted in functional reasoning, data science, and systems thinking. Modular, sequenced, built for NYC classrooms. Includes planning docs, AI policy, and the pedagogical rationale behind every unit.
   url: https://mrallatta.github.io/curriculum/
+
+- name: Migration Workbench
+  description: Reusable Django chassis for tabular workbook to app migrations. Profile, contract, import — repeatable pipeline instead of one-off scripts.
+  url: https://github.com/MrAllatta/migration-workbench
+  pypi: https://pypi.org/project/migration-workbench/
+  docs: https://github.com/MrAllatta/migration-workbench/tree/main/docs
 
 - name: Learning
   description: A structured plan for building data analytics skills — gated, audited, and intentionally AI-free at the assessment layer. This is how I'm becoming a data professional, slowly and on purpose.
@@ -22,12 +32,4 @@
   description: Workshop materials for the Rutgers CS education community. Functional programming, data science, and the argument that CS and math are the same conversation.
   url: /thisiscs/
 
-- name: AP CS Principles in Functional Programming
-  description: CollegeBoard-approved syllabus built on Bootstrap and Pyret.
-  url: /syllabus_cs_principles/syllabus_cs_principles.pdf
 
-- name: Migration Workbench
-  description: Reusable Django chassis for tabular workbook to app migrations. Profile, contract, import — repeatable pipeline instead of one-off scripts.
-  url: https://github.com/MrAllatta/migration-workbench
-  pypi: https://pypi.org/project/migration-workbench/
-  docs: https://github.com/MrAllatta/migration-workbench/tree/main/docs
