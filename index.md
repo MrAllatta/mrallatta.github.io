@@ -30,6 +30,6 @@ I learn slowly and deeply. I do my best work from a foundation I trust. This is 
 </div>
 
 <div class="closing">
-<p>Based in the Hudson Valley. Three kids. Still consulting for a <a href="https://www.vizcarraguitars.com/">guitar maker in Santa Fe</a> on shop data systems, which is a sentence that somehow makes sense if you know the path.</p>
+<p>Based in the Hudson Valley. Three kids. Still consulting for a guitar maker in Santa Fe on shop data systems, which is a sentence that somehow makes sense if you know the path.</p>
 <p>Looking for work where teaching, data, and systems thinking meet. <a href="mailto:ericallatta@gmail.com">Say hello</a>.</p>
 </div>
