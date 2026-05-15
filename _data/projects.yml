@@ -1,10 +1,13 @@
 - name: Teaching Portfolio
+  tagline: Selected work from a decade teaching math and CS in NYC public schools
   url: /teaching-portfolio/
 
 - name: "So, This is CS!"
+  tagline: An introduction to computer science through functional programming
   url: /thisiscs/
 
 - name: AP CS Principles in Functional Programming
+  tagline: CollegeBoard-approved syllabus built on Bootstrap and Pyret
   url: /syllabus_cs_principles/syllabus_cs_principles.pdf
 
 - name: Migration Workbench
