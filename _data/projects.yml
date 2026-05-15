@@ -1,0 +1,17 @@
+- name: Teaching Portfolio
+  tagline:
+  url: /teaching-portfolio/
+
+- name: "So, This is CS!"
+  tagline:
+  url: /thisiscs/
+
+- name: AP CS Principles in Functional Programming
+  tagline:
+  url: /syllabus_cs_principles/syllabus_cs_principles.pdf
+
+- name: Migration Workbench
+  tagline: Reusable Django chassis for tabular workbook to app migrations
+  url: https://github.com/MrAllatta/migration-workbench
+  pypi: https://pypi.org/project/migration-workbench/
+  docs: https://github.com/MrAllatta/migration-workbench/tree/main/docs
