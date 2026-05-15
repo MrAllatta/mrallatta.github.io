@@ -17,6 +17,7 @@ I learn slowly and deeply. I do my best work from a foundation I trust. This is 
     {% if project.tagline %}
     <p>{{ project.tagline }}</p>
     {% endif %}
+    {% if project.pypi or project.docs %}
     <p>
       {% if project.pypi %}
       <a href="{{ project.pypi }}">PyPI</a>
@@ -25,6 +26,7 @@ I learn slowly and deeply. I do my best work from a foundation I trust. This is 
       <a href="{{ project.docs }}">Docs</a>
       {% endif %}
     </p>
+    {% endif %}
   </div>
   {% endfor %}
 </div>
