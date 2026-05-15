@@ -261,32 +261,45 @@ footer a:hover {
     padding: 3rem 0;
 }
 
-.four-oh-four h1 {
-    font-size: 4rem;
-    margin-bottom: 0.5rem;
+.footer {
+  background: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }
 
-/* --- Responsive --- */
+.projects {
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
 
-@media (max-width: 480px) {
-    html {
-        font-size: 16px;
-    }
+.project-card {
+  border-bottom: 1px solid #ddd;
+  padding: 15px 0;
+}
 
-    body::before {
-        margin: 0 -1.5rem;
-    }
+.project-card:last-child {
+  border-bottom: none;
+}
 
-    header {
-        padding: 1.5rem 0 1rem;
-        margin-bottom: 2rem;
-    }
+.project-card h2 {
+  font-size: 1.3em;
+  margin: 0 0 5px;
+}
 
-    nav ul {
-        gap: 1rem;
-    }
+.project-card h2 a {
+  color: #333;
+  text-decoration: none;
+}
 
-    .project {
-        padding: 1rem;
-    }
+.project-card h2 a:hover {
+  color: #70006f;
+}
+
+.project-card p {
+  margin: 5px 0;
 }
