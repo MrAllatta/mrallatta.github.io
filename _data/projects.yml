@@ -1,17 +1,33 @@
 - name: Teaching Portfolio
-  tagline: Selected work from a decade teaching math and CS in NYC public schools
+  description: Lessons, demo lessons, and the messy evidence of a decade in the classroom. If you want to know how I teach, start here.
   url: /teaching-portfolio/
 
+- name: "Curriculum: CS9 — Program by Design"
+  description: A full-year intro CS course rooted in functional reasoning, data science, and systems thinking. Modular, sequenced, built for NYC classrooms. Includes planning docs, AI policy, and the pedagogical rationale behind every unit.
+  url: https://mrallatta.github.io/curriculum/
+
+- name: Learning
+  description: A structured plan for building data analytics skills — gated, audited, and intentionally AI-free at the assessment layer. This is how I'm becoming a data professional, slowly and on purpose.
+  url: https://mrallatta.github.io/learning/
+
+- name: Classroom Manager
+  description: What if a teacher had a team? Role-based AI agents for classroom operations. Built in days as a thought experiment, not production software. Fun to think about.
+  url: https://github.com/MrAllatta/classroom-manager
+
+- name: Classroom Agent Skills
+  description: Markdown role specifications for AI assistants applied to K-12 curriculum work. Small, exploratory, published for anyone who wants to try a piece of it.
+  url: https://github.com/MrAllatta/classroom-agent-skills
+
 - name: "So, This is CS!"
-  tagline: An introduction to computer science through functional programming
+  description: Workshop materials for the Rutgers CS education community. Functional programming, data science, and the argument that CS and math are the same conversation.
   url: /thisiscs/
 
 - name: AP CS Principles in Functional Programming
-  tagline: CollegeBoard-approved syllabus built on Bootstrap and Pyret
+  description: CollegeBoard-approved syllabus built on Bootstrap and Pyret.
   url: /syllabus_cs_principles/syllabus_cs_principles.pdf
 
 - name: Migration Workbench
-  tagline: Reusable Django chassis for tabular workbook to app migrations
+  description: Reusable Django chassis for tabular workbook to app migrations. Profile, contract, import — repeatable pipeline instead of one-off scripts.
   url: https://github.com/MrAllatta/migration-workbench
   pypi: https://pypi.org/project/migration-workbench/
   docs: https://github.com/MrAllatta/migration-workbench/tree/main/docs

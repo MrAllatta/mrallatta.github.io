@@ -12,11 +12,9 @@ I learn slowly and deeply. I do my best work from a foundation I trust. This is 
 
 <div class="projects">
   {% for project in site.data.projects %}
-  <div class="project-card">
-    <h2><a href="{{ project.url }}">{{ project.name }}</a></h2>
-    {% if project.tagline %}
-    <p>{{ project.tagline }}</p>
-    {% endif %}
+  <div class="project">
+    <h3><a href="{{ project.url }}">{{ project.name }}</a></h3>
+    <p>{{ project.description }}</p>
     {% if project.pypi or project.docs %}
     <p>
       {% if project.pypi %}
@@ -29,4 +27,9 @@ I learn slowly and deeply. I do my best work from a foundation I trust. This is 
     {% endif %}
   </div>
   {% endfor %}
+</div>
+
+<div class="closing">
+<p>Based in the Hudson Valley. Three kids. Still consulting for a <a href="https://www.vizcarraguitars.com/">guitar maker in Santa Fe</a> on shop data systems, which is a sentence that somehow makes sense if you know the path.</p>
+<p>Looking for work where teaching, data, and systems thinking meet. <a href="mailto:ericallatta@gmail.com">Say hello</a>.</p>
 </div>
