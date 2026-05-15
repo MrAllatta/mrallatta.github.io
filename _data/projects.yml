@@ -1,13 +1,10 @@
 - name: Teaching Portfolio
-  tagline:
   url: /teaching-portfolio/
 
 - name: "So, This is CS!"
-  tagline:
   url: /thisiscs/
 
 - name: AP CS Principles in Functional Programming
-  tagline:
   url: /syllabus_cs_principles/syllabus_cs_principles.pdf
 
 - name: Migration Workbench
